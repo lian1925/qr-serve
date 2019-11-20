@@ -3,12 +3,12 @@
 - [中文](/docs/readme-chinese.md)
 - [English](readme.md)
 
-Assuming you would like to serve a static site, single page application or just a static file (no matter if on your device or on the local network), this package is just the right choice for you.
+Inspired by [serve-7](https://zeit.co/blog/serve-7). Assuming you would like to serve a static site, single page application or just a static file (no matter if on your device or on the local network), this package is just the right choice for you.
 
 ## Highlights
 
-- CLI utility
-- Ability to serve SPA files
+- Light-weight CLI utility
+- Ability to serve SPA app
 - Ability to query LAN IP
 - Ability to transform IP into QR Codes and display on terminal
 - Support for changing QR Code size and color
