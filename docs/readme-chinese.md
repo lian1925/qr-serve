@@ -1,4 +1,4 @@
-![](/../images/qr-serve.png)
+![](../images/qr-serve.png)
 
 - [中文](/docs/readme-chinese.md)
 - [English](readme.md)
