@@ -60,16 +60,16 @@ const updateCheck = async isDebugging => {
 };
 
 const getHelp = () => chalk`
-  {bold.cyan serve} - Static file serving and directory listing
+  {bold.cyan qr-serve} - Static file serving and QR Code listing
 
   {bold USAGE}
 
-      {bold $} {cyan serve} --help
-      {bold $} {cyan serve} --version
-      {bold $} {cyan serve} folder_name
-      {bold $} {cyan serve} [-l {underline listen_uri} [-l ...]] [{underline directory}]
+      {bold $} {cyan qr-serve} --help
+      {bold $} {cyan qr-serve} --version
+      {bold $} {cyan qr-serve} folder_name
+      {bold $} {cyan qr-serve} [-l {underline listen_uri} [-l ...]] [{underline directory}]
 
-      By default, {cyan serve} will listen on {bold 0.0.0.0:8080} and serve the
+      By default, {cyan qr-serve} will listen on {bold 0.0.0.0:8080} and serve the
       current working directory on that address.
 
       Specifying a single {bold --listen} argument will overwrite the default, not supplement it.
@@ -108,19 +108,19 @@ const getHelp = () => chalk`
 
       For TCP ports on hostname "localhost":
 
-          {bold $} {cyan serve} -l {underline 1234}
+          {bold $} {cyan qr-serve} -l {underline 1234}
 
       For TCP (traditional host/port) endpoints:
 
-          {bold $} {cyan serve} -l tcp://{underline hostname}:{underline 1234}
+          {bold $} {cyan qr-serve} -l tcp://{underline hostname}:{underline 1234}
 
       For UNIX domain socket endpoints:
 
-          {bold $} {cyan serve} -l unix:{underline /path/to/socket.sock}
+          {bold $} {cyan qr-serve} -l unix:{underline /path/to/socket.sock}
 
       For Windows named pipe endpoints:
 
-          {bold $} {cyan serve} -l pipe:\\\\.\\pipe\\{underline PipeName}
+          {bold $} {cyan qr-serve} -l pipe:\\\\.\\pipe\\{underline PipeName}
 `;
 
 const parseEndpoint = str => {
