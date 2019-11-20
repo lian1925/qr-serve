@@ -1,4 +1,4 @@
-![](/images/qr-serve.png)
+![](/../images/qr-serve.png)
 
 - [中文](/docs/readme-chinese.md)
 - [English](readme.md)
@@ -50,7 +50,7 @@ qr-serve folder_name
 qr-serve
 ```
 
-![](images/qr-serve1.png)
+![](../images/qr-serve1.png)
 
 ### 自定义 颜色
 
@@ -72,7 +72,7 @@ Colors 选项:
 qr-serve --qr-color green
 ```
 
-![](images/qr-serve2.png)
+![](../images/qr-serve2.png)
 
 ### 自定义 尺寸
 
@@ -81,7 +81,7 @@ qr-serve --qr-color green
 支持 [2-40]范围的数字
 
 **示例**
-![](images/qr-serve3.png)
+![](../images/qr-serve3.png)
 
 ## 开源协议
 
